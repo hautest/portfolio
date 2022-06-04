@@ -8,9 +8,8 @@ interface GlobalFrameProps {
 }
 
 export const GlobalFrame = styled.div<GlobalFrameProps>`
-  min-height: 85vh;
-  min-width: 70vh;
-  border-radius: 20px;
+  height: 87vh;
+  border-radius: 30px;
   ${flexJustifyCenter}
   ${({ theme: { colors, spacing } }) => css`
     background-color: ${colors.background};
