@@ -12,7 +12,7 @@ export const GlobalFrame = styled.div<GlobalFrameProps>`
   border-radius: 30px;
   ${flexJustifyCenter}
   ${({ theme: { colors, spacing } }) => css`
-    background-color: ${colors.background};
+    background-color: ${colors.white};
     border: solid ${colors.black} 10px;
     padding: ${spacing.lg};
   `}

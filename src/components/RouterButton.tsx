@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 interface ButtonProps {
   direct: "back" | "front";
-  onClick: () => void;
+  onClick?: () => void;
 }
 
 export function RouterButton({ direct, onClick }: ButtonProps) {
@@ -18,8 +18,8 @@ export const StyledRouterButton = styled.button`
   width: fit-content;
   border-radius: 60px;
   border: 0;
-  background-color: ${({ theme }) => theme.colors.background};
+  background-color: ${({ theme }) => theme.colors.white};
   :hover {
-    background-color: ${({ theme }) => theme.colors.white};
+    background-color: ${({ theme }) => theme.colors.background};
   }
 `;

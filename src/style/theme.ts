@@ -2,6 +2,7 @@ const colors = {
   black: "#000000",
   white: "#FFFFFF",
   background: "#E6E7E8",
+  primary: "#0085FF",
 };
 
 const spacing = {
@@ -16,3 +17,4 @@ export const theme = {
 };
 
 export type ThemeColorType = keyof typeof colors;
+export type ThemeSpacingType = keyof typeof spacing;
